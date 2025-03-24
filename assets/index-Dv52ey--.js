@@ -118,7 +118,6 @@ Error generating stack: `+e.message+`
 `,Qv=jl.li`
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid #eee;
   text-decoration: ${({$completed:i})=>i?"line-through":"none"};
