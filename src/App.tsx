@@ -64,6 +64,7 @@ const Input = styled.input`
   font-size: 16px;
   outline: none;
   font-family: inherit;
+  box-sizing: border-box;
 `;
 
 const TodoListContainer = styled.div`
@@ -96,7 +97,6 @@ const TodoList = styled.ul`
 const TodoItem = styled.li<{ $completed: boolean }>`
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid #eee;
   text-decoration: ${({ $completed }) =>
